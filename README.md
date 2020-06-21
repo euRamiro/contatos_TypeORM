@@ -1,5 +1,5 @@
 <h1 align="center">
-    Cadastro de herois
+    Primeiro contato com TypeORM.
 </h1>
 
 <p align="center">
