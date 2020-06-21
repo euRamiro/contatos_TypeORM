@@ -1,0 +1,25 @@
+{
+   "type": "postgres",
+   "host": "192.168.99.101",
+   "port": 5432,
+   "username": "postgres",
+   "password": "postgres",
+   "database": "contatos",
+   "synchronize": false,
+   "migrationsRun": true,
+   "logging": false,
+   "entities": [
+      "src/models/**/*.ts"
+   ],
+   "migrations": [
+      "src/database/migrations/**/*.ts"
+   ],
+   "subscribers": [
+      "src/subscriber/**/*.ts"
+   ],
+   "cli": {
+      "entitiesDir": "src/models",
+      "migrationsDir": "src/database/migrations",
+      "subscribersDir": "src/subscriber"
+   }
+}
